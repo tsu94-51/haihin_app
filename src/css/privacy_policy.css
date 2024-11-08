@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/*----- body -----*/
+body {
+  color: #707070;
+  background: linear-gradient(
+    rgb(73, 175, 251, 0.6),
+    rgb(110, 174, 231, 0.6),
+    rgb(151, 172, 209, 0.6)
+  );
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  padding: 50px 0;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+.pol_bg {
+  width: 80vw;
+  background: #e0edf9;
+  margin: 0 auto;
+  padding: 60px 5vw 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .pol_bg {
+    width: 85vw;
+    font-size: 12px;
+    padding: 40px 4vw 80px;
+  }
+}
+
+.pol-title {
+  font-size: 40px;
+  font-weight: bold;
+  color: #2f83c1;
+}
+
+@media screen and (max-width: 768px) {
+  .pol-title {
+    font-size: 20px;
+  }
+}
+
+.pol_subtitle {
+  font-size: 24px;
+  padding: 60px 0 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .pol_subtitle {
+    font-size: 16px;
+    padding: 30px 0 16px;
+  }
+}
+
+.pol_highlight {
+  font-weight: bold;
+}
+
+.pol_blanc {
+  padding-top: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .pol_blanc {
+    padding-top: 16px;
+  }
+}
